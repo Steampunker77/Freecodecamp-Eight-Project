@@ -1,0 +1,57 @@
+1 <!DOCTYPE html>
+2 <html lang="en">
+3
+4 <head>
+5   <meta charset="UTF-8">
+6   <title>Nutrition Label</title>
+7   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800" rel="stylesheet">
+8   <link href="./styles.css" rel="stylesheet">
+9 </head>
+10
+11 <body>
+12   <div class="label">
+13     <header>
+14       <h1 class="bold">Nutrition Facts</h1>
+15       <div class="divider"></div>
+16       <p>8 servings per container</p>
+17       <p class="bold">Serving size <span>2/3 cup (55g)</span></p>
+18     </header>
+19     <div class="divider large"></div>
+20     <div class="calories-info">
+21       <div class="left-container">
+22         <h2 class="bold small-text">Amount per serving</h2>
+23         <p>Calories</p>
+24       </div>
+25       <span>230</span>
+26     </div>
+27     <div class="divider medium"></div>
+28     <div class="daily-value small-text">
+29       <p class="bold right no-divider">% Daily Value *</p>
+30       <div class="divider"></div>
+31       <p><span><span class="bold">Total Fat</span> 8g</span> <span class="bold">10%</span></p>
+32       <p class="indent no-divider">Saturated Fat 1g <span class="bold">5%</span></p>
+33       <div class="divider"></div>
+34       <p class="indent no-divider"><span><i>Trans</i> Fat 0g</span></p>
+35       <div class="divider"></div>
+36       <p><span><span class="bold">Cholesterol</span> 0mg</span> <span class="bold">0%</span></p>
+37       <p><span><span class="bold">Sodium</span> 160mg</span> <span class="bold">7%</span></p>
+38       <p><span><span class="bold">Total Carbohydrate</span> 37g</span> <span class="bold">13%</span></p>
+39       <p class="indent no-divider">Dietary Fiber 4g</p>
+40       <div class="divider"></div>
+41       <p class="indent no-divider">Total Sugars 12g</p>
+42       <div class="divider double-indent"></div>
+43       <p class="double-indent no-divider">Includes 10g Added Sugars <span class="bold">20%</span></p>
+44       <div class="divider"></div>
+45       <p class="no-divider"><span class="bold">Protein</span> 3g</p>
+46       <div class="divider large"></div>
+47       <p>Vitamin D 2mcg <span>10%</span></p>
+48       <p>Calcium 260mg <span>20%</span></p>
+49       <p>Iron 8mg <span>45%</span></p>
+50       <p class="no-divider">Potassium 235mg <span>6%</span></p>
+51     </div>
+52     <div class="divider medium"></div>
+53     <p class="note">* The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily
+54       diet. 2,000 calories a day is used for general nutrition advice.</p>
+55   </div>
+56 </body>
+57 </html>

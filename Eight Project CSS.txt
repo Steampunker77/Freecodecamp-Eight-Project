@@ -1,0 +1,105 @@
+1 * {
+2  box-sizing: border-box;
+3 }
+4
+5 html {
+6   font-size: 16px;
+7 }
+8
+9 body {
+10  font-family: 'Open Sans', sans-serif;
+11 }
+12
+13 .label {
+14   border: 2px solid black;
+15   width: 270px;
+16   margin: 20px auto;
+17   padding: 0 7px;
+18 }
+19
+20 header h1 {
+21   text-align: center;
+22   margin: -4px 0;
+23   letter-spacing: 0.15px
+24 }
+25
+26 p {
+27   margin: 0;
+28   display: flex;
+29   justify-content: space-between;
+30 }
+31
+32 .divider {
+33   border-bottom: 1px solid #888989;
+34   margin: 2px 0;
+35 }
+36
+37 .bold {
+38   font-weight: 800;
+39 }
+40
+41 .large {
+42   height: 10px;
+43 }
+44
+45 .large, .medium {
+46   background-color: black;
+47   border: 0;
+48 }
+49
+50 .medium {
+51   height: 5px;
+52 }
+53
+54 .small-text {
+55   font-size: 0.85rem;
+56 }
+57
+58
+59 .calories-info {
+60   display: flex;
+61   justify-content: space-between;
+62   align-items: flex-end;
+63 }
+64
+65 .calories-info h2 {
+66   margin: 0;
+67 }
+68
+69 .left-container p {
+70   margin: -5px -2px;
+71   font-size: 2em;
+72   font-weight: 700;
+73 }
+74
+75 .calories-info span {
+76   margin: -7px -2px;
+77   font-size: 2.4em;
+78   font-weight: 700;
+79 }
+80
+81 .right {
+82   justify-content: flex-end;
+83 }
+84
+85 .indent {
+86   margin-left: 1em;
+87 }
+88
+89 .double-indent {
+90   margin-left: 2em;
+91 }
+92
+93 .daily-value p:not(.no-divider) {
+94   border-bottom: 1px solid #888989;
+95 }
+96
+97 .note {
+98   font-size: 0.6rem;
+99   margin: 5px 0;
+100  padding-right: 8px;
+101  padding-left: 8px;
+102  padding-top: 0px;
+103  padding-bottom: 0px;
+104  text-indent: -8px;
+105 }
